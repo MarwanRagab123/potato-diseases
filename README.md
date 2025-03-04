@@ -12,8 +12,7 @@ The trained model is deployed as an **API**, hosted on **Google Cloud Platform (
 ---
 
 ## Project Structure
-The project is organized as follows:
-
+```bash
 📂 POTATO-DISEASES
 ├── 📂 api                # Backend API for model inference
 │   ├── main.py           # Main API script
