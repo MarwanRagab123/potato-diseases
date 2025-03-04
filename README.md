@@ -93,12 +93,20 @@ curl -X POST "http://127.0.0.1:5000/predict" \
   "confidence": 0.92
 }
 ```
-
+ب
 ## Screenshots & Visuals
-| CNN Model Training | Mobile App UI | API Request Example |
-|--------------------|--------------|----------------------|
-| ![Training Graph](![val   train](https://github.com/user-attachments/assets/f6c92e08-a29f-44e3-91d0-25d673254c85))| ![Flutter App](![23](https://github.com/user-attachments/assets/b5ad42b7-fd65-4804-b26b-496a62e58968))| ![Postman API](![api](https://github.com/user-attachments/assets/01a7f2f3-119c-4747-aec7-0d95b77c8ac2))|
 
+#Trainig&Validation
+![val   train](https://github.com/user-attachments/assets/f7688269-cf9f-4eba-9f1d-f32ca85877c3)
+--------------------
+#Flutter Ui
+![23](https://github.com/user-attachments/assets/d5188a75-92a2-4008-a685-cbd4b9d5e0a7)
+--------------------
+#Postman Api
+![api](https://github.com/user-attachments/assets/ac1b7f1d-ddc7-4aa3-bebf-745ccc5c8f60)
+
+#فقشهىهىل
+#فق
 ## Contributions
 Contributions are welcome! If you would like to contribute, please follow these steps:
 1. Fork the repository
