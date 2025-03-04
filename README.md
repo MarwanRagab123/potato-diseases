@@ -32,7 +32,7 @@ The trained model is deployed as an **API**, hosted on **Google Cloud Platform (
 │   ├── training.ipynb    # Jupyter Notebook for training
 │   ├── .ipynb_checkpoints
 └── 📜 README.md          # Project documentation
-
+```
 ---
 
 ## Tech Stack
