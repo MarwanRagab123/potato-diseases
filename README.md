@@ -1,31 +1,37 @@
-# Potato Disease Classification using CNN & GCP API
+![val   train](https://github.com/user-attachments/assets/0dc8b8eb-b992-4ae6-b94a-ff3757d3640c)![23](https://github.com/user-attachments/assets/a4f54608-83fc-412e-8087-a1276211ef02)# Potato Disease Classification using CNN & GCP API
 
 ## Overview
-This project is a deep learning-based classification system for detecting potato diseases using a **Convolutional Neural Network (CNN)**. The model categorizes potato leaves into three classes:
+This project is a **deep learning-based classification system** that detects potato diseases using a **Convolutional Neural Network (CNN)**. The model classifies potato leaves into three categories:
 
 - **Early Blight**
 - **Late Blight**
 - **Healthy**
 
-The trained model is deployed as an **API on Google Cloud Platform (GCP)** and is integrated with a **Flutter** mobile application, allowing users to upload images of potato leaves for real-time classification.
+The trained model is deployed as an **API**, hosted on **Google Cloud Platform (GCP)**, and integrated with a **Flutter** mobile application.
 
-## Tech Stack
-- **Deep Learning**: TensorFlow/Keras
-- **API Backend**: Flask/FastAPI
-- **Cloud Deployment**: Google Cloud Platform (Cloud Run / Cloud Functions)
-- **Mobile App**: Flutter
-- **Dataset**: PlantVillage (Publicly Available)
+---
 
 ## Project Structure
 ```bash
-📂 potato-disease-classification
-├── 📂 backend-api          # Flask/FastAPI API for model inference
-├── 📂 model-training       # CNN training script and model development
-├── 📂 flutter-app          # Flutter mobile application
-├── 📂 dataset              # PlantVillage dataset (if included)
-├── 📜 README.md            # This README file
-├── 📜 requirements.txt      # Dependencies for API
-└── 📜 model.h5             # Trained CNN model
+📂 POTATO-DISEASES
+├── 📂 api                # Backend API for model inference
+│   ├── main.py           # Main API script
+│   ├── main_tf.py        # TensorFlow model handler
+│   ├── requirements.txt  # API dependencies
+├── 📂 flutterapp         # Flutter mobile application
+│   ├── potatos_diseases  # App source code
+│   ├── potatos_diseases.rar # Compressed project files
+├── 📂 gcp                # GCP deployment files
+│   ├── main.py           # GCP API script
+│   ├── requirements.txt  # GCP dependencies
+├── 📂 save_models        # Trained models
+│   ├── 1.keras
+│   ├── 2.keras
+│   ├── potatos.h5
+├── 📂 training           # Model training scripts
+│   ├── training.ipynb    # Jupyter Notebook for training
+│   ├── .ipynb_checkpoints
+└── 📜 README.md          # Project documentation
 ```
 
 ## How to Run the Project
@@ -91,7 +97,10 @@ curl -X POST "http://127.0.0.1:5000/predict" \
 ## Screenshots & Visuals
 | CNN Model Training | Mobile App UI | API Request Example |
 |--------------------|--------------|----------------------|
-| ![Training Graph](assets/training_graph.png) | ![Flutter App](assets/flutter_app_ui.png) | ![Postman API](assets/postman_api.png) |
+| ![Training Graph](![val   train](https://github.com/user-attachments/assets/f6c92e08-a29f-44e3-91d0-25d673254c85)
+) | ![Flutter App](![23](https://github.com/user-attachments/assets/b5ad42b7-fd65-4804-b26b-496a62e58968)
+) | ![Postman API](![api](https://github.com/user-attachments/assets/01a7f2f3-119c-4747-aec7-0d95b77c8ac2)
+) |
 
 ## Contributions
 Contributions are welcome! If you would like to contribute, please follow these steps:
